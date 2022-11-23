@@ -1,9 +1,10 @@
+import {Router} from "./router/Router"
+
 function App() {
   return (
-    <>
-      Exercicio de Router
-      {/* Crie aqui as rotas */}
-    </>
+    <div>
+      <Router/>
+    </div>
   );
 }
 
